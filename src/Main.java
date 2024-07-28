@@ -4,7 +4,17 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Добро пожаловать!\n");
+
+        byte a = 100;
+        short b = 20000;
+        int c = 1000000000;
+        float e = 10.2234123423f;
+        double f = 10.123123123;
+        boolean g = true;
+        boolean g2 = false;
+        char v = 'v';
+
+        System.out.printf("Добро пожаловать!\n"+a);
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
